@@ -16,6 +16,7 @@ export class PostService {
   }
 
   findAll() {
+    //test main
     return this.repository.find();
   }
 
